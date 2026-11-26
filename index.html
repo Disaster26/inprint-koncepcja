@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow" data-podglad>
+<title>InPrint - nieruchomości przemysłowe w Polsce dla inwestorów z Korei</title>
+<meta name="description" content="Pośrednictwo w najmie i zakupie fabryk, magazynów i gruntów pod zakłady dla inwestorów z Korei. Wsparcie prawne, zakładanie spółek, pełna obsługa. Biskupice Podgórne pod Wrocławiem.">
+<link rel="preload" as="image" type="image/webp" href="img/hero-1024.webp" imagesrcset="img/hero-640.webp 640w, img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2000.webp 2000w, img/hero-2560.webp 2560w, img/hero-3020.webp 3020w" imagesizes="100vw" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/manrope-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B2,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--red:#E6194A;--redh:#C8103C;--grey:#5A5A5A;--ink:#17191C;--ink2:#4B4F55;--line:#DDE0E4;--soft:#F1F3F5;--dark:#1C1F23;--w:min(1200px,100% - 32px)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:#fff;color:var(--ink);font:17px/1.6 "Manrope","Malgun Gothic","Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif}
+html[lang=ko] body{font-family:"Malgun Gothic","Apple SD Gothic Neo","Noto Sans KR","Manrope",system-ui,sans-serif;word-break:keep-all}
+img{max-width:100%;display:block}
+a{color:inherit}
+.w{width:var(--w);margin:0 auto}
+h1,h2,h3{line-height:1.15;margin:0;font-weight:800;letter-spacing:-.01em}
+h2{font-size:clamp(30px,4vw,46px)}
+h3{font-size:20px}
+p{margin:0}
+/* motyw z logo: czerwona kropka nad i + podkreślenie */
+.mk{position:relative;display:inline-block;padding-bottom:16px}
+.mk::after{content:"";position:absolute;left:0;bottom:0;width:72px;height:4px;background:var(--red)}
+.mk::before{content:"";position:absolute;left:84px;bottom:-4px;width:12px;height:12px;border-radius:50%;background:var(--red)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 26px;background:var(--red);color:#fff;text-decoration:none;font-weight:700;border:0;border-radius:2px;font-size:16px;cursor:pointer;font-family:inherit}
+.btn:hover{background:var(--redh)}
+/* nagłówek */
+.top{position:sticky;top:0;z-index:30;background:#fff;border-bottom:1px solid var(--line)}
+.top .w{display:flex;align-items:center;gap:20px;height:72px}
+.logo{display:block;flex:none}
+.logo img{height:36px;width:auto}
+.nav{display:flex;gap:26px;margin-left:auto}
+.nav a{text-decoration:none;font-weight:600;font-size:15px;color:var(--ink2);padding:6px 0;border-bottom:2px solid transparent}
+.nav a:hover{color:var(--ink);border-color:var(--red)}
+.lang{display:flex;border:1px solid var(--line);border-radius:2px;flex:none}
+.lang button{border:0;background:none;font:600 13px/1 "Manrope","Malgun Gothic","Apple SD Gothic Neo",sans-serif;padding:9px 10px;cursor:pointer;color:var(--ink2);position:relative}
+.lang button+button{border-left:1px solid var(--line)}
+.lang button[aria-pressed=true]{color:var(--ink)}
+.lang button[aria-pressed=true]::after{content:"";position:absolute;left:50%;top:2px;width:5px;height:5px;margin-left:-2.5px;border-radius:50%;background:var(--red)}
+.tel{font-weight:700;text-decoration:none;font-size:15px;white-space:nowrap}
+.burger{display:none;width:44px;height:44px;border:0;background:none;cursor:pointer;padding:10px;flex:none}
+.burger span{display:block;height:2px;background:var(--ink);margin:6px 0}
+/* pierwszy ekran */
+.hero{position:relative;min-height:calc(100svh - 72px);display:flex;align-items:flex-end;color:#fff;overflow:hidden;background:#2a2d31}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:62% 50%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,16,19,.82) 0%,rgba(14,16,19,.55) 45%,rgba(14,16,19,.05) 80%),linear-gradient(0deg,rgba(14,16,19,.55),rgba(14,16,19,0) 45%)}
+.hero .w{position:relative;z-index:1;padding:56px 0 64px}
+.hero h1{font-size:clamp(34px,5.4vw,68px);max-width:15ch}
+.hero .lead{font-size:clamp(17px,1.5vw,20px);max-width:44ch;margin-top:22px;color:#EDEEF0}
+.hero .line{display:flex;align-items:center;margin-top:28px;max-width:520px}
+.hero .line i{flex:1;height:3px;background:var(--red)}
+.hero .line b{width:14px;height:14px;border-radius:50%;background:var(--red);margin-left:10px}
+.hero .cta{display:flex;flex-wrap:wrap;align-items:center;gap:14px 26px;margin-top:28px}
+.hero .cta a.t{color:#fff;font-weight:700;text-decoration:none;font-size:18px}
+.note{display:none;background:#111;color:#fff;font-size:14px;padding:10px 0}
+html:not([lang=pl]) .note{display:block}
+/* pas lokalizacji */
+.loc{background:var(--soft);border-bottom:1px solid var(--line)}
+.loc .w{display:flex;align-items:center;gap:18px;padding:22px 0;font-weight:600;color:var(--ink2)}
+.loc .pin{width:14px;height:14px;border-radius:50%;background:var(--red);flex:none;box-shadow:0 0 0 6px rgba(230,25,74,.14)}
+section{padding:96px 0}
+/* o nas */
+.about .g{display:grid;grid-template-columns:1.05fr 1fr;gap:64px;margin-top:44px}
+.about .txt p+p{margin-top:16px}
+.about .txt p{color:var(--ink2)}
+.quote{border-left:4px solid var(--red);padding:6px 0 6px 26px}
+.quote h3{margin-bottom:14px}
+.quote blockquote{margin:0;font-size:21px;line-height:1.5;font-weight:600}
+.quote .who{margin-top:16px;font-size:15px;color:var(--ink2)}
+.miles{margin-top:72px}
+.miles ol{list-style:none;margin:30px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);position:relative}
+.miles ol::before{content:"";position:absolute;left:0;right:0;top:6px;height:2px;background:var(--line)}
+.miles li{position:relative;padding:34px 28px 0 0}
+.miles li::before{content:"";position:absolute;left:0;top:0;width:14px;height:14px;border-radius:50%;background:#fff;border:3px solid var(--grey)}
+.miles li:last-child::before{background:var(--red);border-color:var(--red)}
+.miles li b{display:block;font-size:15px;color:var(--red);margin-bottom:6px}
+.miles li span{color:var(--ink2);font-size:16px}
+.miles .add{margin-top:22px;font-size:14px;color:var(--ink2)}
+/* oferta */
+.offer{background:var(--dark);color:#fff}
+.offer .head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;flex-wrap:wrap}
+.offer .head p{max-width:46ch;color:#C9CCD1}
+.offer ul{list-style:none;margin:52px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #3A3E44}
+.offer li{padding:32px 32px 36px 0;border-bottom:1px solid #3A3E44}
+.offer li:not(:nth-child(3n+1)){padding-left:32px;border-left:1px solid #3A3E44}
+.offer li h3{display:flex;gap:12px;align-items:baseline}
+.offer li h3::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--red);flex:none;transform:translateY(-2px)}
+.offer li p{margin-top:12px;color:#C9CCD1;font-size:16px}
+.offer .cta{margin-top:44px}
+/* realizacje */
+.real .head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+.real .head p{color:var(--ink2);max-width:52ch}
+.rail{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 48px)/3);gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;margin-top:40px;padding-bottom:14px;scrollbar-width:thin;cursor:grab}
+.rail.drag{cursor:grabbing;scroll-snap-type:none}
+.rail figure{margin:0;scroll-snap-align:start}
+.rail img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;user-select:none;-webkit-user-drag:none}
+.rail figcaption{padding-top:14px;border-top:3px solid var(--red);margin-top:0;font-weight:700}
+.rail figcaption span{display:block;font-weight:500;color:var(--ink2);font-size:15px}
+.arrows{display:flex;gap:8px}
+.arrows button{width:48px;height:48px;border:1px solid var(--line);background:#fff;cursor:pointer;font-size:20px;border-radius:2px}
+.arrows button:hover{border-color:var(--ink)}
+/* rynek */
+.market{background:var(--soft)}
+.market .g{display:grid;grid-template-columns:1fr 1.2fr;gap:56px;margin-top:44px;align-items:start}
+.market .ph img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.market .ph p{font-size:13px;color:var(--ink2);margin-top:8px}
+.posts{display:grid;gap:0}
+.posts a{display:block;text-decoration:none;padding:24px 0;border-bottom:1px solid var(--line)}
+.posts a:first-child{padding-top:0}
+.posts a h3{font-size:21px}
+.posts a:hover h3{color:var(--red)}
+.posts a p{color:var(--ink2);margin-top:8px;font-size:16px}
+.posts a small{display:block;margin-top:10px;font-weight:700;color:var(--red);font-size:14px}
+/* kontakt */
+.contact .g{display:grid;grid-template-columns:1fr 1.1fr;gap:56px;margin-top:44px}
+.dl div{padding:16px 0;border-bottom:1px solid var(--line)}
+.dl span{display:block;font-size:14px;color:var(--ink2)}
+.dl a,.dl b{font-weight:700;font-size:19px;text-decoration:none}
+.map{margin-top:28px;aspect-ratio:16/10;background:var(--soft) center/cover;position:relative;border:1px solid var(--line)}
+.map button{position:absolute;inset:0;margin:auto;width:max-content;height:52px}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+form{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+form label{display:grid;gap:6px;font-weight:600;font-size:15px}
+form .full{grid-column:1/-1}
+input,textarea,select{font:inherit;font-size:16px;padding:13px 14px;border:1px solid #C4C8CD;border-radius:2px;background:#fff;width:100%}
+input:focus,textarea:focus,select:focus{outline:2px solid var(--red);outline-offset:1px;border-color:transparent}
+textarea{min-height:130px;resize:vertical}
+form .btn{justify-self:start}
+form .info{font-size:13px;color:var(--ink2)}
+/* stopka */
+footer{background:var(--dark);color:#B9BDC3;padding:56px 0 32px;font-size:15px}
+footer .g{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px}
+footer b{color:#fff}
+footer a{text-decoration:none}
+footer .bot{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-top:40px;padding-top:24px;border-top:1px solid #33373D;font-size:13px}
+footer .src{font-size:12px;color:#8A8F96;margin-top:18px;max-width:900px}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}html{scroll-behavior:auto}}
+/* responsywność */
+@media (max-width:1100px){.top .tel{display:none}.nav{gap:18px}}
+@media (max-width:920px){
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;background:#fff;flex-direction:column;gap:0;padding:8px 16px 18px;border-bottom:1px solid var(--line);box-shadow:0 12px 24px rgba(0,0,0,.08)}
+  .nav.open{display:flex}
+  .nav a{padding:14px 0;border-bottom:1px solid var(--line);font-size:17px}
+  .lang{margin-left:auto}
+  .burger{display:block}
+  .about .g,.market .g,.contact .g{grid-template-columns:1fr;gap:40px}
+  .offer ul{grid-template-columns:1fr 1fr}
+  .offer li,.offer li:not(:nth-child(3n+1)){padding:28px 24px 30px 0;border-left:0}
+  .offer li:nth-child(2n){padding-left:24px;border-left:1px solid #3A3E44}
+  .rail{grid-auto-columns:calc((100% - 24px)/2)}
+  footer .g{grid-template-columns:1fr 1fr}
+  footer .g>div:first-child{grid-column:1/-1}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  section{padding:68px 0}
+  .top .w{height:64px;gap:10px}
+  .nav{top:64px}
+  .logo img{height:28px}
+  .lang button{padding:8px 8px;font-size:12.5px}
+  .hero{min-height:calc(100svh - 64px)}
+  .hero::after{background:linear-gradient(0deg,rgba(14,16,19,.9) 0%,rgba(14,16,19,.62) 55%,rgba(14,16,19,.25) 100%)}
+  .hero .w{padding:36px 0 34px}
+  .hero .lead{margin-top:16px}
+  .hero .line{margin-top:22px}
+  .hero .cta{margin-top:24px}
+  .hero .btn{width:100%}
+  .loc .w{font-size:15px;align-items:flex-start}
+  .loc .pin{margin-top:5px}
+  .miles ol{grid-template-columns:1fr;gap:26px}
+  .miles ol::before{left:6px;right:auto;top:0;bottom:0;width:2px;height:auto}
+  .miles li{padding:0 0 0 36px}
+  .offer ul{grid-template-columns:1fr}
+  .offer li,.offer li:nth-child(2n),.offer li:not(:nth-child(3n+1)){padding:24px 0;border-left:0}
+  .rail{grid-auto-columns:84%;gap:16px}
+  .arrows{display:none}
+  form{grid-template-columns:1fr}
+  .quote blockquote{font-size:19px}
+}
+@media (max-width:640px) and (max-height:700px){.hero h1{font-size:31px}.hero .lead{font-size:16px}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="w">
+    <a class="logo" href="#" aria-label="InPrint - strona główna"><img src="img/logo.png" alt="InPrint" width="800" height="243"></a>
+    <nav class="nav" id="nav" aria-label="Menu">
+      <a href="#o-nas" data-t="n1">O nas</a>
+      <a href="#oferta" data-t="n2">Oferta</a>
+      <a href="#realizacje" data-t="n3">Realizacje</a>
+      <a href="#rynek" data-t="n4">Rynek w Polsce</a>
+      <a href="#kontakt" data-t="n5">Kontakt</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Język / Language / 언어">
+      <button type="button" data-l="pl" aria-pressed="true">PL</button>
+      <button type="button" data-l="en" aria-pressed="false">EN</button>
+      <button type="button" data-l="ko" aria-pressed="false" lang="ko">한국어</button>
+    </div>
+    <a class="tel" href="tel:+48504199228">+48 504 199 228</a>
+    <button class="burger" type="button" aria-label="Menu" aria-controls="nav" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" style="padding:0">
+  <picture>
+    <img src="img/hero-1024.webp" srcset="img/hero-640.webp 640w, img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2000.webp 2000w, img/hero-2560.webp 2560w, img/hero-3020.webp 3020w" sizes="100vw" width="3020" height="2130" alt="Nowoczesna hala magazynowa z rampami przeładunkowymi" fetchpriority="high">
+  </picture>
+  <div class="w">
+    <h1 data-t="h1">Nieruchomości przemysłowe w Polsce dla inwestorów z Korei</h1>
+    <p class="lead" data-t="lead">Pomagamy znaleźć, kupić albo wynająć fabrykę, magazyn lub grunt pod zakład i prowadzimy całą sprawę: od pierwszej rozmowy po przekazanie kluczy.</p>
+    <div class="line" aria-hidden="true"><i></i><b></b></div>
+    <div class="cta">
+      <a class="btn" href="#kontakt" data-t="cta">Zapytaj o nieruchomość</a>
+      <a class="t" href="tel:+48504199228">+48 504 199 228</a>
+    </div>
+  </div>
+</section>
+
+<div class="note"><div class="w" data-t="note"></div></div>
+<div class="loc"><div class="w"><span class="pin" aria-hidden="true"></span><span data-t="loc">Biuro mamy przy ul. LG w Biskupicach Podgórnych pod Wrocławiem, tuż obok zakładów LG, w jednym z największych skupisk firm koreańskich w Polsce.</span></div></div>
+
+<section class="about" id="o-nas">
+  <div class="w">
+    <h2 class="mk" data-t="h_about">O nas</h2>
+    <div class="g">
+      <div class="txt">
+        <p>InPrint Sp. z o.o. działa w Biskupicach Podgórnych od lat. Teraz rozszerzamy działalność o nowy obszar: pośrednictwo w zakupie i najmie nieruchomości przemysłowych dla koreańskich firm, które wchodzą na rynek polski.</p>
+        <p>Szukamy fabryk, magazynów i gruntów pod budowę zakładów, sprawdzamy je, negocjujemy warunki i pilnujemy formalności. Rozmawiamy z inwestorem po koreańsku, a z właścicielami, urzędami i prawnikami po polsku, więc nic nie ginie w tłumaczeniu.</p>
+      </div>
+      <div class="quote">
+        <h3 data-t="h_quote">Słowo Prezesa Zarządu</h3>
+        <blockquote>„Koreańskie firmy coraz częściej wybierają Polskę. Chcemy, żeby znalezienie właściwego miejsca na fabrykę czy magazyn było dla nich proste i bezpieczne, od pierwszej rozmowy do dnia, w którym zakład rusza.”</blockquote>
+        <p class="who">Prezes Zarządu InPrint Sp. z o.o.<br>(tekst przykładowy, tu będzie słowo wstępne od Pana Prezesa)</p>
+      </div>
+    </div>
+    <div class="miles">
+      <h3 data-t="h_miles">Kamienie milowe</h3>
+      <ol>
+        <li><b>Początek</b><span>InPrint Sp. z o.o. rozpoczyna działalność w Biskupicach Podgórnych pod Wrocławiem.</span></li>
+        <li><b>Rozwój</b><span>Dotychczasowa działalność InPrint w regionie wrocławskim.</span></li>
+        <li><b>2026</b><span>Nowy obszar: nieruchomości przemysłowe dla inwestorów z Korei.</span></li>
+      </ol>
+      <p class="add">Lata i wydarzenia uzupełnimy na podstawie Państwa materiałów.</p>
+    </div>
+  </div>
+</section>
+
+<section class="offer" id="oferta">
+  <div class="w">
+    <div class="head">
+      <h2 class="mk" data-t="h_offer">Nasza oferta</h2>
+      <p>Jedna osoba kontaktowa przez całą inwestycję. Prowadzimy sprawę od wyboru lokalizacji do dnia, w którym przekazujemy Państwu klucze.</p>
+    </div>
+    <ul>
+      <li><h3 data-t="o1">Najem hal, magazynów i fabryk</h3><p>Wyszukujemy obiekty pod Państwa wymagania: powierzchnia, wysokość, rampy, zasilanie, dojazd. Negocjujemy warunki najmu.</p></li>
+      <li><h3 data-t="o2">Kupno i sprzedaż nieruchomości przemysłowych</h3><p>Pośredniczymy w zakupie gotowych zakładów i magazynów, sprawdzamy stan prawny i techniczny przed transakcją.</p></li>
+      <li><h3 data-t="o3">Grunty pod budowę zakładu</h3><p>Szukamy działek z odpowiednim przeznaczeniem w planie, mediami i dobrym dojazdem do autostrad.</p></li>
+      <li><h3 data-t="o4">Wsparcie prawne i umowy</h3><p>Współpracujemy z prawnikami przy umowach najmu, sprzedaży i zezwoleniach, w tym przy zakupie nieruchomości przez firmę z kapitałem spoza UE.</p></li>
+      <li><h3 data-t="o5">Zakładanie spółek w Polsce</h3><p>Pomagamy założyć spółkę, otworzyć konto i przejść przez pierwsze formalności, zanim zakład zacznie działać.</p></li>
+      <li><h3 data-t="o6">Full service: od umowy do przekazania</h3><p>Pilnujemy terminów, odbiorów i dokumentów aż do finalnego przekazania nieruchomości.</p></li>
+    </ul>
+    <div class="cta"><a class="btn" href="#kontakt" data-t="cta">Zapytaj o nieruchomość</a></div>
+  </div>
+</section>
+
+<section class="real" id="realizacje">
+  <div class="w">
+    <div class="head">
+      <div>
+        <h2 class="mk" data-t="h_real">Nasze realizacje</h2>
+        <p style="margin-top:18px">Firmy, które z naszą pomocą uruchomiły inwestycje i dziś prowadzą działalność w Polsce. Na podglądzie zdjęcia poglądowe, docelowo zdjęcia ok. 6 Państwa klientów.</p>
+      </div>
+      <div class="arrows"><button type="button" data-d="-1" aria-label="Poprzednie">&larr;</button><button type="button" data-d="1" aria-label="Następne">&rarr;</button></div>
+    </div>
+    <div class="rail" id="rail">
+      <figure><img src="img/r-hala-640.webp" srcset="img/r-hala-640.webp 640w, img/r-hala-1000.webp 1000w" sizes="(max-width:640px) 84vw, (max-width:920px) 48vw, 390px" width="1000" height="697" alt="Hala magazynowa z rampami" loading="lazy"><figcaption>Firma klienta 1<span>Magazyn, najem</span></figcaption></figure>
+      <figure><img src="img/r-zmierzch-640.webp" srcset="img/r-zmierzch-640.webp 640w, img/r-zmierzch-1000.webp 1000w" sizes="(max-width:640px) 84vw, (max-width:920px) 48vw, 390px" width="1000" height="573" alt="Centrum logistyczne o zmierzchu" loading="lazy"><figcaption>Firma klienta 2<span>Centrum logistyczne, zakup</span></figcaption></figure>
+      <figure><img src="img/r-park-640.webp" srcset="img/r-park-640.webp 640w, img/r-park-1000.webp 1000w" sizes="(max-width:640px) 84vw, (max-width:920px) 48vw, 390px" width="1000" height="521" alt="Nowa hala w parku logistycznym" loading="lazy"><figcaption>Firma klienta 3<span>Zakład produkcyjny, najem</span></figcaption></figure>
+      <figure><img src="img/r-brama-640.webp" srcset="img/r-brama-640.webp 640w, img/r-brama-1000.webp 1000w" sizes="(max-width:640px) 84vw, (max-width:920px) 48vw, 390px" width="1000" height="469" alt="Hala przemysłowa przy drodze dojazdowej" loading="lazy"><figcaption>Firma klienta 4<span>Hala produkcyjna, zakup</span></figcaption></figure>
+      <figure><img src="img/r-wezel-640.webp" srcset="img/r-wezel-640.webp 640w, img/r-wezel-1000.webp 1000w" sizes="(max-width:640px) 84vw, (max-width:920px) 48vw, 390px" width="1000" height="750" alt="Węzeł autostradowy pod Wrocławiem z lotu ptaka" loading="lazy"><figcaption>Firma klienta 5<span>Grunt pod zakład przy autostradzie</span></figcaption></figure>
+      <figure><img src="img/r-hala-640.webp" srcset="img/r-hala-640.webp 640w, img/r-hala-1000.webp 1000w" sizes="(max-width:640px) 84vw, (max-width:920px) 48vw, 390px" width="1000" height="697" alt="Hala magazynowa" loading="lazy" style="object-position:20% 50%"><figcaption>Firma klienta 6<span>Spółka i magazyn, full service</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="market" id="rynek">
+  <div class="w">
+    <h2 class="mk" data-t="h_market">Informacje o polskim rynku</h2>
+    <div class="g">
+      <div class="ph"><img src="img/wroclaw-1000.webp" srcset="img/wroclaw-640.webp 640w, img/wroclaw-1000.webp 1000w, img/wroclaw-1600.webp 1600w" sizes="(max-width:920px) 100vw, 520px" width="1000" height="750" alt="Wrocław z lotu ptaka" loading="lazy"><p>Wrocław, stolica Dolnego Śląska. Biskupice Podgórne leżą kilkanaście kilometrów na południe od miasta.</p></div>
+      <div class="posts">
+        <a href="#rynek"><h3>Najem czy zakup hali: co wybrać na start w Polsce</h3><p>Kiedy opłaca się wynająć gotowy magazyn, a kiedy kupić lub zbudować własny zakład.</p><small>Porady dla inwestorów</small></a>
+        <a href="#rynek"><h3>Zakup nieruchomości przez firmę z Korei: zezwolenie MSWiA</h3><p>Kto potrzebuje zezwolenia na nabycie nieruchomości, ile to trwa i jak się przygotować.</p><small>Prawo i formalności</small></a>
+        <a href="#rynek"><h3>Polska Strefa Inwestycji: na czym polega wsparcie dla nowych zakładów</h3><p>Podstawowe informacje o zwolnieniach podatkowych dla inwestycji w Polsce.</p><small>Informacje inwestycyjne</small></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="kontakt">
+  <div class="w">
+    <h2 class="mk" data-t="h_contact">Kontakt</h2>
+    <div class="g">
+      <div>
+        <div class="dl">
+          <div><span data-t="l_addr">Adres</span><b>ul. LG 2A, Biskupice Podgórne<br>55-040 Kobierzyce</b></div>
+          <div><span data-t="l_tel">Telefon</span><a href="tel:+48504199228">+48 504 199 228</a></div>
+          <div><span>E-mail</span><a href="mailto:inprint@inprint.pl">inprint@inprint.pl</a></div>
+        </div>
+        <div class="map" id="map" style="background-image:url(img/r-wezel-640.webp)"><button class="btn" type="button" data-t="map">Pokaż mapę dojazdu</button></div>
+      </div>
+      <form onsubmit="event.preventDefault();this.querySelector('.info').textContent='To podgląd: formularz zacznie wysyłać zapytania na docelowej stronie.'">
+        <label><span data-t="f_name">Imię i nazwisko</span><input name="n" autocomplete="name"></label>
+        <label><span data-t="f_comp">Firma</span><input name="f" autocomplete="organization"></label>
+        <label><span>E-mail</span><input type="email" name="e" autocomplete="email"></label>
+        <label><span data-t="f_tel">Telefon</span><input type="tel" name="t" autocomplete="tel"></label>
+        <label class="full"><span data-t="f_type">Czego Państwo szukają?</span>
+          <select name="r"><option>Najem magazynu lub hali</option><option>Zakup fabryki lub magazynu</option><option>Grunt pod budowę zakładu</option><option>Założenie spółki</option><option>Inne</option></select></label>
+        <label class="full"><span data-t="f_msg">Wiadomość</span><textarea name="m"></textarea></label>
+        <button class="btn" type="submit" data-t="f_send">Wyślij zapytanie</button>
+        <p class="info full">Odpowiadamy po polsku, angielsku i koreańsku.</p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="w">
+    <div class="g">
+      <div><b>InPrint Sp. z o.o.</b><br>ul. LG 2A, Biskupice Podgórne, 55-040 Kobierzyce<br>NIP 534 22 08 580, REGON 015270268, KRS 0000138955</div>
+      <div><a href="tel:+48504199228">+48 504 199 228</a><br><a href="mailto:inprint@inprint.pl">inprint@inprint.pl</a></div>
+      <div><a href="#o-nas" data-t="n1">O nas</a><br><a href="#oferta" data-t="n2">Oferta</a><br><a href="#kontakt" data-t="n5">Kontakt</a></div>
+    </div>
+    <p class="src">Zdjęcia poglądowe: Wikimedia Commons, licencje CC BY-SA 2.0 i 4.0 (geograph.org.uk; Jasień Brzesko Logistics Park; IC Wroclaw-Polnoc aerial view 2020; 2019-07-02 Aerial photograph of Wrocław).</p>
+    <div class="bot">
+      <span>&copy; <span id="rok">2026</span> InPrint Sp. z o.o.</span>
+      <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=inprint.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+    </div>
+  </div>
+</footer>
+<script src="app.js" defer></script>
+</body>
+</html>
