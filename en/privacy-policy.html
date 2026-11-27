@@ -271,6 +271,17 @@ footer .bot a{color:#B9BDC3}
 .btn2{min-height:44px;padding:0 18px;background:#fff;border:1px solid #C4C8CD;border-radius:2px;font:inherit;font-size:15px;font-weight:700;cursor:pointer;color:var(--ink)}
 .btn2:hover{border-color:var(--ink)}
 
+.txt.solo{max-width:780px}
+.txt.solo p{color:var(--ink2);font-size:18px}
+.txt.solo p+p{margin-top:16px}
+.letter.full{display:grid;grid-template-columns:1fr 1.45fr;gap:56px;margin-top:64px;padding:48px 48px 44px}
+.letter.full::before{left:48px}
+.letter.full blockquote{font-size:clamp(21px,2vw,26px);line-height:1.45}
+.letter.full .lt p{color:var(--ink2)}
+.letter.full .lt p+p{margin-top:16px}
+.letter.full .hello{font-weight:700;color:var(--ink)!important}
+.letter .more{margin-top:22px}
+.letter .h3{margin-bottom:18px}
 /* responsywność */
 @media (max-width:1180px){.top .tel{display:none}.nav{gap:18px}}
 @media (max-width:1000px){
@@ -296,6 +307,7 @@ footer .bot a{color:#B9BDC3}
   footer .g>div:first-child{grid-column:1/-1}
   .where .mapw{max-width:560px}
   .svc{gap:36px}
+  .letter.full{grid-template-columns:1fr;gap:28px}
   .grid6{grid-template-columns:1fr 1fr}
   .art .w{grid-template-columns:1fr;gap:40px}
   .art aside{max-width:640px}
@@ -337,6 +349,9 @@ footer .bot a{color:#B9BDC3}
   footer .g{grid-template-columns:1fr}
   .phead{padding:34px 0 30px}
   .svcs{padding:0 0 32px}
+  .letter.full{padding:34px 22px 28px;gap:26px;margin-top:44px}
+  .letter.full::before{left:22px}
+  .txt.solo p{font-size:16.5px}
   .svc{grid-template-columns:1fr;gap:22px;padding:40px 0}
   .svc:nth-child(even) .ph{order:0}
   .grid6{grid-template-columns:1fr}
@@ -362,12 +377,12 @@ footer .bot a{color:#B9BDC3}
 </header>
 <main>
 <section class="phead"><div class="w"><nav class="crumbs" aria-label="breadcrumb"><a href="./">Home</a><i aria-hidden="true"></i><span aria-current="page">Privacy policy</span></nav><h1>Privacy policy</h1><p class="sub">Information on the processing of personal data and cookies on inprint.pl.</p><div class="line" aria-hidden="true"><i></i><b></b></div></div></section>
-<section class="art first"><div class="w"><article class="body solo"><h2>1. Data controller</h2><p>The controller of personal data is InPrint Sp. z o.o., ul. LG 2A, Biskupice Podgórne, 55-040 Kobierzyce, Poland, KRS 0000138955, NIP 534-220-85-80. For data protection matters please contact: inprint@inprint.pl.</p><h2>2. Contact form</h2><p>We process the data provided in the form (name, company, e-mail, phone, message) to reply to your inquiry and prepare an offer (Art. 6(1)(b) and (f) GDPR). Providing data is voluntary, but without an e-mail address or phone number we cannot reply.</p><h2>3. How long we keep data</h2><p>We keep the data for as long as needed to handle the inquiry and, if we start working together, for the period required by law, e.g. tax law.</p><h2>4. Who receives the data</h2><p>The data may be received by companies providing services to us: hosting and e-mail, technical support of the website and, if we work together, law firms and accounting offices. We do not sell data.</p><h2>5. Your rights</h2><p>You have the right to access, rectify and erase your data, restrict its processing, data portability and to object, as well as the right to lodge a complaint with the President of the Personal Data Protection Office (UODO).</p><h2>6. Cookies and map</h2><p>The website uses cookies necessary for it to work and, only with your consent, Google Analytics cookies. You can change your consent at any time by deleting cookies in your browser. The Contact page shows a Google map, which may set its own Google cookies.</p></article></div></section>
+<section class="art first"><div class="w"><article class="body solo"><h2>1. Data controller</h2><p>The controller of personal data is InPrint Sp. z o.o., ul. LG 2A, 55-040 Biskupice Podgórne, Poland, KRS 0000138955, NIP 534-220-85-80. For data protection matters please contact: inprint@inprint.pl.</p><h2>2. Contact form</h2><p>We process the data provided in the form (name, company, e-mail, phone, message) to reply to your inquiry and prepare an offer (Art. 6(1)(b) and (f) GDPR). Providing data is voluntary, but without an e-mail address or phone number we cannot reply.</p><h2>3. How long we keep data</h2><p>We keep the data for as long as needed to handle the inquiry and, if we start working together, for the period required by law, e.g. tax law.</p><h2>4. Who receives the data</h2><p>The data may be received by companies providing services to us: hosting and e-mail, technical support of the website and, if we work together, law firms and accounting offices. We do not sell data.</p><h2>5. Your rights</h2><p>You have the right to access, rectify and erase your data, restrict its processing, data portability and to object, as well as the right to lodge a complaint with the President of the Personal Data Protection Office (UODO).</p><h2>6. Cookies and map</h2><p>The website uses cookies necessary for it to work and, only with your consent, Google Analytics cookies. You can change your consent at any time by deleting cookies in your browser. The Contact page shows a Google map, which may set its own Google cookies.</p></article></div></section>
 </main>
 <footer>
   <div class="w">
     <div class="g">
-      <div><b>InPrint Sp. z o.o.</b><br>ul. LG 2A, Biskupice Podgórne, 55-040 Kobierzyce<br>NIP 534 22 08 580, REGON 015270268, KRS 0000138955</div>
+      <div><b>InPrint Sp. z o.o.</b><br>ul. LG 2A, 55-040 Biskupice Podgórne<br>NIP 534 22 08 580, REGON 015270268, KRS 0000138955</div>
       <div><a href="tel:+48504199228">+48 504 199 228</a><br><a href="mailto:inprint@inprint.pl">inprint@inprint.pl</a></div>
       <div class="fnav"><a href="about">About us</a><a href="services">Services</a><a href="track-record">Track record</a><a href="market/">Polish market</a><a href="contact">Contact</a></div>
     </div>

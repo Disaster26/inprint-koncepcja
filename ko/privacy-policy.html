@@ -271,6 +271,17 @@ footer .bot a{color:#B9BDC3}
 .btn2{min-height:44px;padding:0 18px;background:#fff;border:1px solid #C4C8CD;border-radius:2px;font:inherit;font-size:15px;font-weight:700;cursor:pointer;color:var(--ink)}
 .btn2:hover{border-color:var(--ink)}
 
+.txt.solo{max-width:780px}
+.txt.solo p{color:var(--ink2);font-size:18px}
+.txt.solo p+p{margin-top:16px}
+.letter.full{display:grid;grid-template-columns:1fr 1.45fr;gap:56px;margin-top:64px;padding:48px 48px 44px}
+.letter.full::before{left:48px}
+.letter.full blockquote{font-size:clamp(21px,2vw,26px);line-height:1.45}
+.letter.full .lt p{color:var(--ink2)}
+.letter.full .lt p+p{margin-top:16px}
+.letter.full .hello{font-weight:700;color:var(--ink)!important}
+.letter .more{margin-top:22px}
+.letter .h3{margin-bottom:18px}
 /* responsywność */
 @media (max-width:1180px){.top .tel{display:none}.nav{gap:18px}}
 @media (max-width:1000px){
@@ -296,6 +307,7 @@ footer .bot a{color:#B9BDC3}
   footer .g>div:first-child{grid-column:1/-1}
   .where .mapw{max-width:560px}
   .svc{gap:36px}
+  .letter.full{grid-template-columns:1fr;gap:28px}
   .grid6{grid-template-columns:1fr 1fr}
   .art .w{grid-template-columns:1fr;gap:40px}
   .art aside{max-width:640px}
@@ -337,6 +349,9 @@ footer .bot a{color:#B9BDC3}
   footer .g{grid-template-columns:1fr}
   .phead{padding:34px 0 30px}
   .svcs{padding:0 0 32px}
+  .letter.full{padding:34px 22px 28px;gap:26px;margin-top:44px}
+  .letter.full::before{left:22px}
+  .txt.solo p{font-size:16.5px}
   .svc{grid-template-columns:1fr;gap:22px;padding:40px 0}
   .svc:nth-child(even) .ph{order:0}
   .grid6{grid-template-columns:1fr}
@@ -362,12 +377,12 @@ footer .bot a{color:#B9BDC3}
 </header>
 <main>
 <section class="phead"><div class="w"><nav class="crumbs" aria-label="breadcrumb"><a href="./">홈</a><i aria-hidden="true"></i><span aria-current="page">개인정보 처리방침</span></nav><h1>개인정보 처리방침</h1><p class="sub">inprint.pl 웹사이트의 개인정보 처리 및 쿠키에 관한 안내입니다.</p><div class="line" aria-hidden="true"><i></i><b></b></div></div></section>
-<section class="art first"><div class="w"><article class="body solo"><h2>1. 개인정보 관리자</h2><p>개인정보 관리자는 InPrint Sp. z o.o.(ul. LG 2A, Biskupice Podgórne, 55-040 Kobierzyce, Poland, KRS 0000138955, NIP 534-220-85-80)입니다. 개인정보 관련 문의: inprint@inprint.pl.</p><h2>2. 문의 양식</h2><p>문의 양식에 입력하신 정보(성함, 회사명, 이메일, 전화번호, 문의 내용)는 문의에 답변하고 제안서를 준비하기 위해 처리합니다(GDPR 제6조 제1항 b호 및 f호). 정보 제공은 선택 사항이지만, 이메일 주소나 전화번호가 없으면 답변을 드릴 수 없습니다.</p><h2>3. 보관 기간</h2><p>정보는 문의 처리에 필요한 기간 동안 보관하며, 협력이 이루어지는 경우 세법 등 법령에서 정한 기간 동안 보관합니다.</p><h2>4. 정보 제공 대상</h2><p>호스팅 및 이메일, 웹사이트 기술 지원 업체, 협력이 이루어지는 경우 법률 사무소와 회계 사무소가 정보를 받을 수 있습니다. 개인정보를 판매하지 않습니다.</p><h2>5. 이용자의 권리</h2><p>개인정보 열람, 정정, 삭제, 처리 제한, 이동 및 처리 반대에 대한 권리가 있으며, 폴란드 개인정보보호청(UODO)에 이의를 제기할 수 있습니다.</p><h2>6. 쿠키 및 지도</h2><p>웹사이트는 운영에 필요한 쿠키와, 동의하신 경우에만 Google Analytics 쿠키를 사용합니다. 브라우저에서 쿠키를 삭제하여 언제든지 동의를 변경할 수 있습니다. 문의하기 페이지의 Google 지도는 자체 Google 쿠키를 저장할 수 있습니다.</p></article></div></section>
+<section class="art first"><div class="w"><article class="body solo"><h2>1. 개인정보 관리자</h2><p>개인정보 관리자는 InPrint Sp. z o.o.(ul. LG 2A, 55-040 Biskupice Podgórne, Poland, KRS 0000138955, NIP 534-220-85-80)입니다. 개인정보 관련 문의: inprint@inprint.pl.</p><h2>2. 문의 양식</h2><p>문의 양식에 입력하신 정보(성함, 회사명, 이메일, 전화번호, 문의 내용)는 문의에 답변하고 제안서를 준비하기 위해 처리합니다(GDPR 제6조 제1항 b호 및 f호). 정보 제공은 선택 사항이지만, 이메일 주소나 전화번호가 없으면 답변을 드릴 수 없습니다.</p><h2>3. 보관 기간</h2><p>정보는 문의 처리에 필요한 기간 동안 보관하며, 협력이 이루어지는 경우 세법 등 법령에서 정한 기간 동안 보관합니다.</p><h2>4. 정보 제공 대상</h2><p>호스팅 및 이메일, 웹사이트 기술 지원 업체, 협력이 이루어지는 경우 법률 사무소와 회계 사무소가 정보를 받을 수 있습니다. 개인정보를 판매하지 않습니다.</p><h2>5. 이용자의 권리</h2><p>개인정보 열람, 정정, 삭제, 처리 제한, 이동 및 처리 반대에 대한 권리가 있으며, 폴란드 개인정보보호청(UODO)에 이의를 제기할 수 있습니다.</p><h2>6. 쿠키 및 지도</h2><p>웹사이트는 운영에 필요한 쿠키와, 동의하신 경우에만 Google Analytics 쿠키를 사용합니다. 브라우저에서 쿠키를 삭제하여 언제든지 동의를 변경할 수 있습니다. 문의하기 페이지의 Google 지도는 자체 Google 쿠키를 저장할 수 있습니다.</p></article></div></section>
 </main>
 <footer>
   <div class="w">
     <div class="g">
-      <div><b>InPrint Sp. z o.o.</b><br>ul. LG 2A, Biskupice Podgórne, 55-040 Kobierzyce<br>NIP 534 22 08 580, REGON 015270268, KRS 0000138955</div>
+      <div><b>InPrint Sp. z o.o.</b><br>ul. LG 2A, 55-040 Biskupice Podgórne<br>NIP 534 22 08 580, REGON 015270268, KRS 0000138955</div>
       <div><a href="tel:+48504199228">+48 504 199 228</a><br><a href="mailto:inprint@inprint.pl">inprint@inprint.pl</a></div>
       <div class="fnav"><a href="about">회사 소개</a><a href="services">서비스</a><a href="track-record">성공 사례</a><a href="market/">폴란드 시장</a><a href="contact">문의하기</a></div>
     </div>

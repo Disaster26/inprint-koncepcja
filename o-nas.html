@@ -271,6 +271,17 @@ footer .bot a{color:#B9BDC3}
 .btn2{min-height:44px;padding:0 18px;background:#fff;border:1px solid #C4C8CD;border-radius:2px;font:inherit;font-size:15px;font-weight:700;cursor:pointer;color:var(--ink)}
 .btn2:hover{border-color:var(--ink)}
 
+.txt.solo{max-width:780px}
+.txt.solo p{color:var(--ink2);font-size:18px}
+.txt.solo p+p{margin-top:16px}
+.letter.full{display:grid;grid-template-columns:1fr 1.45fr;gap:56px;margin-top:64px;padding:48px 48px 44px}
+.letter.full::before{left:48px}
+.letter.full blockquote{font-size:clamp(21px,2vw,26px);line-height:1.45}
+.letter.full .lt p{color:var(--ink2)}
+.letter.full .lt p+p{margin-top:16px}
+.letter.full .hello{font-weight:700;color:var(--ink)!important}
+.letter .more{margin-top:22px}
+.letter .h3{margin-bottom:18px}
 /* responsywność */
 @media (max-width:1180px){.top .tel{display:none}.nav{gap:18px}}
 @media (max-width:1000px){
@@ -296,6 +307,7 @@ footer .bot a{color:#B9BDC3}
   footer .g>div:first-child{grid-column:1/-1}
   .where .mapw{max-width:560px}
   .svc{gap:36px}
+  .letter.full{grid-template-columns:1fr;gap:28px}
   .grid6{grid-template-columns:1fr 1fr}
   .art .w{grid-template-columns:1fr;gap:40px}
   .art aside{max-width:640px}
@@ -337,6 +349,9 @@ footer .bot a{color:#B9BDC3}
   footer .g{grid-template-columns:1fr}
   .phead{padding:34px 0 30px}
   .svcs{padding:0 0 32px}
+  .letter.full{padding:34px 22px 28px;gap:26px;margin-top:44px}
+  .letter.full::before{left:22px}
+  .txt.solo p{font-size:16.5px}
   .svc{grid-template-columns:1fr;gap:22px;padding:40px 0}
   .svc:nth-child(even) .ph{order:0}
   .grid6{grid-template-columns:1fr}
@@ -362,10 +377,11 @@ footer .bot a{color:#B9BDC3}
 </header>
 <main>
 <section class="phead"><div class="w"><nav class="crumbs" aria-label="breadcrumb"><a href="./">Strona główna</a><i aria-hidden="true"></i><span aria-current="page">O nas</span></nav><h1>O nas</h1><p class="sub">Firma z Biskupic Podgórnych, która prowadzi koreańskich inwestorów przez polski rynek nieruchomości przemysłowych.</p><div class="line" aria-hidden="true"><i></i><b></b></div></div></section>
-<section class="about first"><div class="w"><div class="g"><div class="txt"><p>InPrint Sp. z o.o. od lat działa w Biskupicach Podgórnych, w strefie przemysłowej przy zakładach LG. Teraz rozszerzamy działalność o nowy obszar: pośrednictwo w zakupie i najmie nieruchomości przemysłowych dla koreańskich firm, które wchodzą na rynek polski.</p><p>Szukamy fabryk, magazynów i gruntów pod budowę zakładów, sprawdzamy je, negocjujemy warunki i pilnujemy formalności. Z inwestorem rozmawiamy po koreańsku, a z właścicielami, urzędami i prawnikami po polsku, więc nic nie ginie w tłumaczeniu.</p><p>Inwestor ma u nas jedną osobę kontaktową od pierwszej rozmowy do dnia, w którym zakład zaczyna pracę.</p></div>
-<div class="letter"><h2 class="h3">Słowo Prezesa Zarządu</h2><blockquote>„Koreańskie firmy coraz częściej wybierają Polskę. Chcemy, żeby znalezienie właściwego miejsca na fabrykę czy magazyn było dla nich proste i bezpieczne, od pierwszej rozmowy do dnia, w którym zakład rusza.”</blockquote><div class="sig"><span class="mono" aria-hidden="true">SL</span><div><b>Prezes Zarządu, InPrint Sp. z o.o.</b><span>Tekst przykładowy, tu będzie słowo wstępne Pana Prezesa</span></div></div></div></div>
+<section class="about first"><div class="w"><div class="txt solo"><p>InPrint Sp. z o.o. od lat działa w Biskupicach Podgórnych, w strefie przemysłowej przy zakładach LG. Teraz rozszerzamy działalność o nowy obszar: pośrednictwo w zakupie i najmie nieruchomości przemysłowych dla koreańskich firm, które wchodzą na rynek polski.</p><p>Szukamy fabryk, magazynów i gruntów pod budowę zakładów, sprawdzamy je, negocjujemy warunki i pilnujemy formalności. Z inwestorem rozmawiamy po koreańsku, a z właścicielami, urzędami i prawnikami po polsku, więc nic nie ginie w tłumaczeniu.</p><p>Inwestor ma u nas jedną osobę kontaktową od pierwszej rozmowy do dnia, w którym zakład zaczyna pracę.</p></div>
+<div class="letter full" id="slowo-prezesa"><div class="lh"><h2 class="h3">Słowo Prezesa Zarządu</h2><blockquote>„Ponad 20 lat doświadczenia w terenie, z którym prowadzimy koreańskie firmy do udanego startu w Polsce.”</blockquote><div class="sig"><span class="mono" aria-hidden="true">SL</span><div><b>Sang Jin Lee</b><span>Prezes Zarządu, InPrint Sp. z o.o.</span></div></div></div>
+<div class="lt"><p class="hello">Szanowni Państwo, witamy w InPrint Sp. z o.o.</p><p>Od założenia w 2002 roku InPrint Sp. z o.o. od ponad 20 lat działa na pierwszej linii, pomagając wielu koreańskim firmom z powodzeniem zakorzenić się na polskim rynku. Od dostawców LG pod Wrocławiem (Dolny Śląsk) po dostawców Hyundaia i Kii na Śląsku: wspieraliśmy już ponad 50 firm w sprawnym miękkim lądowaniu (soft landing), od założenia spółki w Polsce, przez pozyskanie fabryki i magazynu, aż po ustabilizowanie pierwszych miesięcy działalności.</p><p>Kupno lub najem nieruchomości w obcym kraju wiąże się z wieloma zmiennymi prawnymi i administracyjnymi. Dzięki lokalnej sieci kontaktów i znajomości rynku, zdobytym w dziesiątkach zrealizowanych projektów, ograniczamy do minimum ryzyko błędów na każdym etapie najmu i zakupu nieruchomości komercyjnych i przemysłowych w Polsce: fabryk, magazynów i biur. Prowadzimy klientów tak, aby szybko, bezpiecznie i przy możliwie najkorzystniejszych kosztach zawarli umowę na najlepszy grunt i obiekt.</p><p>Chcemy być kimś więcej niż pośrednikiem: najbardziej solidnym lokalnym partnerem, który towarzyszy Państwu od startu biznesu w Polsce po jego rozwój. Dziękujemy.</p></div></div>
 <div class="facts"><div><b>PL · EN · 한국어</b><span>obsługa inwestora w trzech językach</span></div><div><b>1 opiekun</b><span>przez całą inwestycję, od wyboru miejsca do kluczy</span></div><div><b>ul. LG 2A</b><span>biuro w strefie przemysłowej obok zakładów LG</span></div><div><b>Full service</b><span>nieruchomość, spółka, umowy i formalności w jednym miejscu</span></div></div>
-<div class="miles"><h2 class="mk">Kamienie milowe</h2><ol><li><b>Początek</b><span>InPrint Sp. z o.o. rozpoczyna działalność w Biskupicach Podgórnych pod Wrocławiem.</span></li><li><b>Rozwój</b><span>Dotychczasowa działalność InPrint w regionie wrocławskim.</span></li><li><b>2026</b><span>Nowy obszar: nieruchomości przemysłowe dla inwestorów z Korei.</span></li></ol><p class="add">Lata i wydarzenia uzupełnimy na podstawie Państwa materiałów.</p></div></div></section>
+<div class="miles"><h2 class="mk">Kamienie milowe</h2><ol><li><b>2002</b><span>Założenie InPrint Sp. z o.o. Od tego czasu firma pomogła ponad 50 koreańskim firmom rozpocząć działalność w Polsce.</span></li><li><b>Rozwój</b><span>Dotychczasowa działalność InPrint w regionie wrocławskim.</span></li><li><b>2026</b><span>Nowy obszar: nieruchomości przemysłowe dla inwestorów z Korei.</span></li></ol><p class="add">Lata i wydarzenia uzupełnimy na podstawie Państwa materiałów.</p></div></div></section>
 <div class="loc"><div class="w"><span class="pin" aria-hidden="true"></span><span>Biuro mamy przy ul. LG w Biskupicach Podgórnych pod Wrocławiem, tuż obok zakładów LG, w jednym z największych skupisk firm koreańskich w Polsce.</span></div></div>
 <section class="where"><div class="w g"><div>
 <h2 class="mk">Lokalizacja i regiony</h2><p class="sub">Działamy z Dolnego Śląska, przy zakładach LG pod Wrocławiem, i szukamy nieruchomości w głównych regionach przemysłowych i logistycznych Polski.</p><ul><li class="lg"><i></i><span><b>Biskupice Podgórne / Wrocław</b>: nasze biuro, strefa zakładów LG, autostrada A4 i S8</span></li><li><i></i><span><b>Poznań</b>: centra logistyczne przy autostradzie A2</span></li><li><i></i><span><b>Łódź</b>: środek kraju, skrzyżowanie A1 i A2</span></li><li><i></i><span><b>Warszawa</b>: stolica, centrala wielu firm</span></li><li><i></i><span><b>Górny Śląsk</b>: największy region przemysłowy, A1 i A4</span></li><li><i></i><span><b>Trójmiasto</b>: porty morskie w Gdańsku i Gdyni</span></li></ul><p class="kr">Koreańskie zakłady w Polsce to m.in. LG Energy Solution pod Wrocławiem, LG Electronics w Mławie i SK ie technology w Dąbrowie Górniczej.</p></div>
@@ -381,7 +397,7 @@ footer .bot a{color:#B9BDC3}
 <footer>
   <div class="w">
     <div class="g">
-      <div><b>InPrint Sp. z o.o.</b><br>ul. LG 2A, Biskupice Podgórne, 55-040 Kobierzyce<br>NIP 534 22 08 580, REGON 015270268, KRS 0000138955</div>
+      <div><b>InPrint Sp. z o.o.</b><br>ul. LG 2A, 55-040 Biskupice Podgórne<br>NIP 534 22 08 580, REGON 015270268, KRS 0000138955</div>
       <div><a href="tel:+48504199228">+48 504 199 228</a><br><a href="mailto:inprint@inprint.pl">inprint@inprint.pl</a></div>
       <div class="fnav"><a href="o-nas">O nas</a><a href="oferta">Oferta</a><a href="realizacje">Realizacje</a><a href="rynek/">Rynek w Polsce</a><a href="kontakt">Kontakt</a></div>
     </div>

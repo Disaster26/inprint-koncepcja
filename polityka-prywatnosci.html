@@ -271,6 +271,17 @@ footer .bot a{color:#B9BDC3}
 .btn2{min-height:44px;padding:0 18px;background:#fff;border:1px solid #C4C8CD;border-radius:2px;font:inherit;font-size:15px;font-weight:700;cursor:pointer;color:var(--ink)}
 .btn2:hover{border-color:var(--ink)}
 
+.txt.solo{max-width:780px}
+.txt.solo p{color:var(--ink2);font-size:18px}
+.txt.solo p+p{margin-top:16px}
+.letter.full{display:grid;grid-template-columns:1fr 1.45fr;gap:56px;margin-top:64px;padding:48px 48px 44px}
+.letter.full::before{left:48px}
+.letter.full blockquote{font-size:clamp(21px,2vw,26px);line-height:1.45}
+.letter.full .lt p{color:var(--ink2)}
+.letter.full .lt p+p{margin-top:16px}
+.letter.full .hello{font-weight:700;color:var(--ink)!important}
+.letter .more{margin-top:22px}
+.letter .h3{margin-bottom:18px}
 /* responsywność */
 @media (max-width:1180px){.top .tel{display:none}.nav{gap:18px}}
 @media (max-width:1000px){
@@ -296,6 +307,7 @@ footer .bot a{color:#B9BDC3}
   footer .g>div:first-child{grid-column:1/-1}
   .where .mapw{max-width:560px}
   .svc{gap:36px}
+  .letter.full{grid-template-columns:1fr;gap:28px}
   .grid6{grid-template-columns:1fr 1fr}
   .art .w{grid-template-columns:1fr;gap:40px}
   .art aside{max-width:640px}
@@ -337,6 +349,9 @@ footer .bot a{color:#B9BDC3}
   footer .g{grid-template-columns:1fr}
   .phead{padding:34px 0 30px}
   .svcs{padding:0 0 32px}
+  .letter.full{padding:34px 22px 28px;gap:26px;margin-top:44px}
+  .letter.full::before{left:22px}
+  .txt.solo p{font-size:16.5px}
   .svc{grid-template-columns:1fr;gap:22px;padding:40px 0}
   .svc:nth-child(even) .ph{order:0}
   .grid6{grid-template-columns:1fr}
@@ -362,12 +377,12 @@ footer .bot a{color:#B9BDC3}
 </header>
 <main>
 <section class="phead"><div class="w"><nav class="crumbs" aria-label="breadcrumb"><a href="./">Strona główna</a><i aria-hidden="true"></i><span aria-current="page">Polityka prywatności</span></nav><h1>Polityka prywatności</h1><p class="sub">Informacje o przetwarzaniu danych osobowych i plikach cookies na stronie inprint.pl.</p><div class="line" aria-hidden="true"><i></i><b></b></div></div></section>
-<section class="art first"><div class="w"><article class="body solo"><h2>1. Administrator danych</h2><p>Administratorem danych osobowych jest InPrint Sp. z o.o. z siedzibą w Biskupicach Podgórnych, ul. LG 2A, 55-040 Kobierzyce, KRS 0000138955, NIP 534-220-85-80. W sprawach danych osobowych prosimy o kontakt: inprint@inprint.pl.</p><h2>2. Formularz kontaktowy</h2><p>Dane podane w formularzu (imię i nazwisko, firma, e-mail, telefon, treść wiadomości) przetwarzamy, aby odpowiedzieć na zapytanie i przygotować ofertę (art. 6 ust. 1 lit. b i f RODO). Podanie danych jest dobrowolne, ale bez adresu e-mail lub telefonu nie możemy odpowiedzieć.</p><h2>3. Jak długo przechowujemy dane</h2><p>Dane przechowujemy przez czas potrzebny do obsługi zapytania, a jeśli dojdzie do współpracy, przez okres wymagany przepisami, np. podatkowymi.</p><h2>4. Komu przekazujemy dane</h2><p>Dane mogą otrzymać firmy, które świadczą dla nas usługi: hosting i poczta e-mail, obsługa techniczna strony, a w razie współpracy kancelarie prawne i biura rachunkowe. Nie sprzedajemy danych.</p><h2>5. Państwa prawa</h2><p>Przysługuje Państwu prawo dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przeniesienia i sprzeciwu, a także prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych.</p><h2>6. Pliki cookies i mapa</h2><p>Strona używa plików cookies niezbędnych do działania oraz, wyłącznie za Państwa zgodą, cookies statystycznych Google Analytics. Zgodę można zmienić w każdej chwili, usuwając pliki cookies w przeglądarce. Na stronie Kontakt wyświetlamy mapę Google, która może zapisywać własne pliki cookies Google.</p></article></div></section>
+<section class="art first"><div class="w"><article class="body solo"><h2>1. Administrator danych</h2><p>Administratorem danych osobowych jest InPrint Sp. z o.o. z siedzibą w Biskupicach Podgórnych, ul. LG 2A, 55-040 Biskupice Podgórne, KRS 0000138955, NIP 534-220-85-80. W sprawach danych osobowych prosimy o kontakt: inprint@inprint.pl.</p><h2>2. Formularz kontaktowy</h2><p>Dane podane w formularzu (imię i nazwisko, firma, e-mail, telefon, treść wiadomości) przetwarzamy, aby odpowiedzieć na zapytanie i przygotować ofertę (art. 6 ust. 1 lit. b i f RODO). Podanie danych jest dobrowolne, ale bez adresu e-mail lub telefonu nie możemy odpowiedzieć.</p><h2>3. Jak długo przechowujemy dane</h2><p>Dane przechowujemy przez czas potrzebny do obsługi zapytania, a jeśli dojdzie do współpracy, przez okres wymagany przepisami, np. podatkowymi.</p><h2>4. Komu przekazujemy dane</h2><p>Dane mogą otrzymać firmy, które świadczą dla nas usługi: hosting i poczta e-mail, obsługa techniczna strony, a w razie współpracy kancelarie prawne i biura rachunkowe. Nie sprzedajemy danych.</p><h2>5. Państwa prawa</h2><p>Przysługuje Państwu prawo dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przeniesienia i sprzeciwu, a także prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych.</p><h2>6. Pliki cookies i mapa</h2><p>Strona używa plików cookies niezbędnych do działania oraz, wyłącznie za Państwa zgodą, cookies statystycznych Google Analytics. Zgodę można zmienić w każdej chwili, usuwając pliki cookies w przeglądarce. Na stronie Kontakt wyświetlamy mapę Google, która może zapisywać własne pliki cookies Google.</p></article></div></section>
 </main>
 <footer>
   <div class="w">
     <div class="g">
-      <div><b>InPrint Sp. z o.o.</b><br>ul. LG 2A, Biskupice Podgórne, 55-040 Kobierzyce<br>NIP 534 22 08 580, REGON 015270268, KRS 0000138955</div>
+      <div><b>InPrint Sp. z o.o.</b><br>ul. LG 2A, 55-040 Biskupice Podgórne<br>NIP 534 22 08 580, REGON 015270268, KRS 0000138955</div>
       <div><a href="tel:+48504199228">+48 504 199 228</a><br><a href="mailto:inprint@inprint.pl">inprint@inprint.pl</a></div>
       <div class="fnav"><a href="o-nas">O nas</a><a href="oferta">Oferta</a><a href="realizacje">Realizacje</a><a href="rynek/">Rynek w Polsce</a><a href="kontakt">Kontakt</a></div>
     </div>

@@ -271,6 +271,17 @@ footer .bot a{color:#B9BDC3}
 .btn2{min-height:44px;padding:0 18px;background:#fff;border:1px solid #C4C8CD;border-radius:2px;font:inherit;font-size:15px;font-weight:700;cursor:pointer;color:var(--ink)}
 .btn2:hover{border-color:var(--ink)}
 
+.txt.solo{max-width:780px}
+.txt.solo p{color:var(--ink2);font-size:18px}
+.txt.solo p+p{margin-top:16px}
+.letter.full{display:grid;grid-template-columns:1fr 1.45fr;gap:56px;margin-top:64px;padding:48px 48px 44px}
+.letter.full::before{left:48px}
+.letter.full blockquote{font-size:clamp(21px,2vw,26px);line-height:1.45}
+.letter.full .lt p{color:var(--ink2)}
+.letter.full .lt p+p{margin-top:16px}
+.letter.full .hello{font-weight:700;color:var(--ink)!important}
+.letter .more{margin-top:22px}
+.letter .h3{margin-bottom:18px}
 /* responsywność */
 @media (max-width:1180px){.top .tel{display:none}.nav{gap:18px}}
 @media (max-width:1000px){
@@ -296,6 +307,7 @@ footer .bot a{color:#B9BDC3}
   footer .g>div:first-child{grid-column:1/-1}
   .where .mapw{max-width:560px}
   .svc{gap:36px}
+  .letter.full{grid-template-columns:1fr;gap:28px}
   .grid6{grid-template-columns:1fr 1fr}
   .art .w{grid-template-columns:1fr;gap:40px}
   .art aside{max-width:640px}
@@ -337,6 +349,9 @@ footer .bot a{color:#B9BDC3}
   footer .g{grid-template-columns:1fr}
   .phead{padding:34px 0 30px}
   .svcs{padding:0 0 32px}
+  .letter.full{padding:34px 22px 28px;gap:26px;margin-top:44px}
+  .letter.full::before{left:22px}
+  .txt.solo p{font-size:16.5px}
   .svc{grid-template-columns:1fr;gap:22px;padding:40px 0}
   .svc:nth-child(even) .ph{order:0}
   .grid6{grid-template-columns:1fr}
@@ -368,7 +383,7 @@ footer .bot a{color:#B9BDC3}
 </section>
 <div class="loc"><div class="w"><span class="pin" aria-hidden="true"></span><span>Biuro mamy przy ul. LG w Biskupicach Podgórnych pod Wrocławiem, tuż obok zakładów LG, w jednym z największych skupisk firm koreańskich w Polsce.</span></div></div>
 <section class="about"><div class="w"><h2 class="mk">O nas</h2><div class="g"><div class="txt"><p>InPrint Sp. z o.o. od lat działa w Biskupicach Podgórnych, w strefie przemysłowej przy zakładach LG. Teraz rozszerzamy działalność o nowy obszar: pośrednictwo w zakupie i najmie nieruchomości przemysłowych dla koreańskich firm, które wchodzą na rynek polski.</p><p>Szukamy fabryk, magazynów i gruntów pod budowę zakładów, sprawdzamy je, negocjujemy warunki i pilnujemy formalności. Z inwestorem rozmawiamy po koreańsku, a z właścicielami, urzędami i prawnikami po polsku, więc nic nie ginie w tłumaczeniu.</p><p>Inwestor ma u nas jedną osobę kontaktową od pierwszej rozmowy do dnia, w którym zakład zaczyna pracę.</p><a class="more" href="o-nas">Więcej o nas</a></div>
-<div class="letter"><h3>Słowo Prezesa Zarządu</h3><blockquote>„Koreańskie firmy coraz częściej wybierają Polskę. Chcemy, żeby znalezienie właściwego miejsca na fabrykę czy magazyn było dla nich proste i bezpieczne, od pierwszej rozmowy do dnia, w którym zakład rusza.”</blockquote><div class="sig"><span class="mono" aria-hidden="true">SL</span><div><b>Prezes Zarządu, InPrint Sp. z o.o.</b><span>Tekst przykładowy, tu będzie słowo wstępne Pana Prezesa</span></div></div></div></div></div></section>
+<div class="letter"><h3>Słowo Prezesa Zarządu</h3><blockquote>„Ponad 20 lat doświadczenia w terenie, z którym prowadzimy koreańskie firmy do udanego startu w Polsce.”</blockquote><div class="sig"><span class="mono" aria-hidden="true">SL</span><div><b>Sang Jin Lee</b><span>Prezes Zarządu, InPrint Sp. z o.o.</span></div></div><a class="more" href="o-nas">Więcej</a></div></div></div></section>
 <section class="offer"><div class="w"><div class="head"><h2 class="mk">Nasza oferta</h2><p>Prowadzimy inwestycję od wyboru lokalizacji do dnia, w którym przekazujemy Państwu klucze. Wszystko w jednym miejscu, z jedną osobą kontaktową.</p></div><ul><li><svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 42V20l19-10 19 10v22"/><path d="M5 42h38"/><path d="M15 42V27h18v15"/><path d="M15 32h18M15 37h18"/><circle cx="24" cy="5" r="3" fill="#E6194A" stroke="none"/></svg><h3><a href="oferta#najem">Najem hal, magazynów i fabryk</a></h3><p>Wyszukujemy obiekty pod Państwa wymagania: powierzchnia, wysokość, rampy, zasilanie, dojazd. Negocjujemy warunki najmu.</p></li><li><svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 38V18h16v20"/><path d="M20 38V10h24v28"/><path d="M26 16h4M34 16h4M26 23h4M34 23h4M26 30h4M34 30h4M9 24h6M9 31h6"/><path d="M4 44h40" stroke="#E6194A" stroke-width="3"/></svg><h3><a href="oferta#zakup">Kupno i sprzedaż nieruchomości przemysłowych</a></h3><p>Pośredniczymy w zakupie gotowych zakładów i magazynów. Przed transakcją sprawdzamy stan prawny i techniczny.</p></li><li><svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 36l10-24 26 4 4 22z"/><path d="M14 12l6 30M9 24l33 3" stroke-dasharray="3 3"/><circle cx="27" cy="25" r="4" fill="#E6194A" stroke="none"/></svg><h3><a href="oferta#grunty">Grunty pod budowę zakładu</a></h3><p>Szukamy działek z odpowiednim przeznaczeniem w planie, mediami i dobrym dojazdem do autostrad.</p></li><li><svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M10 4h20l8 8v32H10z"/><path d="M30 4v8h8"/><path d="M16 20h16M16 26h16M16 32h9"/><circle cx="33" cy="37" r="4" fill="#E6194A" stroke="none"/></svg><h3><a href="oferta#prawo">Wsparcie prawne i umowy</a></h3><p>Współpracujemy z prawnikami przy umowach najmu, sprzedaży i zezwoleniach, także przy zakupie nieruchomości przez firmę z kapitałem spoza Unii Europejskiej.</p></li><li><svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 44V14h22v30"/><path d="M30 24h10v20"/><path d="M4 44h40"/><path d="M14 20h4M22 20h2M14 27h4M22 27h2M14 34h4M22 34h2"/><path d="M19 14V4"/><path d="M19 4h9l-2 3 2 3h-9" fill="#E6194A" stroke="#E6194A"/></svg><h3><a href="oferta#spolki">Zakładanie spółek w Polsce</a></h3><p>Pomagamy założyć spółkę, otworzyć konto i przejść przez pierwsze formalności, zanim zakład zacznie działać.</p></li><li><svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="8" cy="38" r="4" fill="#E6194A" stroke="none"/><path d="M12 38h10c6 0 6-10 0-10H18c-6 0-6-10 0-10h14"/><path d="M34 10h10v14H34z"/><path d="M36 14h6M36 19h6"/></svg><h3><a href="oferta#full-service">Full service: od umowy do przekazania</a></h3><p>Pilnujemy terminów, odbiorów, przyłączy i dokumentów aż do finalnego przekazania nieruchomości.</p></li></ul><div class="cta"><a class="btn" href="oferta">Pełna oferta</a></div></div></section>
 <section class="proc"><div class="w"><h2 class="mk">Jak prowadzimy inwestycję</h2><p class="sub">Pięć etapów, które przechodzimy razem z inwestorem z Korei. Na każdym wiedzą Państwo, co się dzieje i co będzie dalej.</p><ol class="steps"><li><small>Krok 1</small><h3>Rozmowa i wymagania</h3><p>Ustalamy potrzeby: rodzaj obiektu, powierzchnię, budżet, termin i region. Rozmowa także online i po koreańsku.</p></li><li><small>Krok 2</small><h3>Wybór lokalizacji</h3><p>Przygotowujemy zestawienie obiektów i działek, organizujemy wizje lokalne i porównujemy koszty.</p></li><li><small>Krok 3</small><h3>Sprawdzenie i negocjacje</h3><p>Weryfikujemy stan prawny i techniczny, negocjujemy cenę oraz warunki najmu lub zakupu.</p></li><li><small>Krok 4</small><h3>Spółka, zezwolenia i umowa</h3><p>Zakładamy spółkę w Polsce, przygotowujemy wniosek o zezwolenie, jeśli jest potrzebne, i doprowadzamy do podpisania umowy.</p></li><li><small>Krok 5</small><h3>Przekazanie i start</h3><p>Odbiór obiektu, przyłącza i dokumenty. Przekazujemy klucze, a zakład może zaczynać pracę.</p></li></ol></div></section>
 <section class="where"><div class="w g"><div>
@@ -389,7 +404,7 @@ footer .bot a{color:#B9BDC3}
 <footer>
   <div class="w">
     <div class="g">
-      <div><b>InPrint Sp. z o.o.</b><br>ul. LG 2A, Biskupice Podgórne, 55-040 Kobierzyce<br>NIP 534 22 08 580, REGON 015270268, KRS 0000138955</div>
+      <div><b>InPrint Sp. z o.o.</b><br>ul. LG 2A, 55-040 Biskupice Podgórne<br>NIP 534 22 08 580, REGON 015270268, KRS 0000138955</div>
       <div><a href="tel:+48504199228">+48 504 199 228</a><br><a href="mailto:inprint@inprint.pl">inprint@inprint.pl</a></div>
       <div class="fnav"><a href="o-nas">O nas</a><a href="oferta">Oferta</a><a href="realizacje">Realizacje</a><a href="rynek/">Rynek w Polsce</a><a href="kontakt">Kontakt</a></div>
     </div>
